@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerChutePersonalPimp", "src\PowerChutePersonalPimp\PowerChutePersonalPimp.csproj", "{A6BF0925-1BEE-4B3B-BDBC-063F7371701A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D658FC65-DB21-42BA-BDF0-141AD39E07AC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		README.md = README.md
+		version.json = version.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA32D65B-98C5-4E76-A786-FC65A5241C3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerChutePersonalPimpLib", "src\PowerChutePersonalPimpLib\PowerChutePersonalPimpLib.csproj", "{E645F273-2E0A-4E9D-B9BB-24FE12F64325}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{58701386-6FDB-4EB7-80E2-96EB9EC96FDC}"
+	ProjectSection(SolutionItems) = preProject
+		.github\dependabot.yml = .github\dependabot.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{6C5C0B0F-DA6D-4307-9001-740930A48339}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+		.github\workflows\codeql-analysis.yml = .github\workflows\codeql-analysis.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6BF0925-1BEE-4B3B-BDBC-063F7371701A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BF0925-1BEE-4B3B-BDBC-063F7371701A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BF0925-1BEE-4B3B-BDBC-063F7371701A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BF0925-1BEE-4B3B-BDBC-063F7371701A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E645F273-2E0A-4E9D-B9BB-24FE12F64325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E645F273-2E0A-4E9D-B9BB-24FE12F64325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E645F273-2E0A-4E9D-B9BB-24FE12F64325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E645F273-2E0A-4E9D-B9BB-24FE12F64325}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6BF0925-1BEE-4B3B-BDBC-063F7371701A} = {FA32D65B-98C5-4E76-A786-FC65A5241C3A}
+		{E645F273-2E0A-4E9D-B9BB-24FE12F64325} = {FA32D65B-98C5-4E76-A786-FC65A5241C3A}
+		{6C5C0B0F-DA6D-4307-9001-740930A48339} = {58701386-6FDB-4EB7-80E2-96EB9EC96FDC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB1D38F4-3727-4C54-8AEF-06436E23177D}
+	EndGlobalSection
+EndGlobal
