@@ -1,6 +1,6 @@
 # Build and test the application
 
-name: ".NET 6"
+name: ".NET 8"
 
 on:
   push:
@@ -14,8 +14,8 @@ jobs:
     runs-on: windows-latest
 
     env:
-      DOTNET_VERSION: 6.0.x
-      RELEASE_SUBDIR: net6.0
+      DOTNET_VERSION: 8.0.x
+      RELEASE_SUBDIR: net8.0
 
     steps:
     - name: Checkout
