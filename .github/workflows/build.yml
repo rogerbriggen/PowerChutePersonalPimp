@@ -36,7 +36,7 @@ jobs:
       run: dotnet build --configuration Release --no-restore
 
     - name: Upload build artefact PowerChutePersonalPimp
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v6
       with:
         name: PowerChutePersonalPimp
         path: D:\a\PowerChutePersonalPimp\PowerChutePersonalPimp\src\PowerChutePersonalPimp\bin\Release\${{ env.RELEASE_SUBDIR }}\
