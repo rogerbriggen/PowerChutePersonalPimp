@@ -19,14 +19,14 @@ updates:
         patterns:
           - "OpenTelemetry"
           - "OpenTelemetry.*"
-	  Serilog:
+      Serilog:
         patterns:
           - "Serilog"
           - "Serilog.*"
-	  xunit:
+      xunit:
         patterns:
           - "xunit.*"
-	  Aspire:
+      Aspire:
         patterns:
           - "Aspire.*"
       Grpc:
